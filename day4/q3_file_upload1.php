@@ -5,11 +5,3 @@
 	<input type="submit" value="Upload"><br>
 </form>
 
-
-
-
-<?php
-
-
-
-?>
