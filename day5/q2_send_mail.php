@@ -16,7 +16,7 @@
 <?php
 require("connect.php");
 
-@$admin_id = "maloorrohhe17ite@student.mes.ac.in";
+@$admin_id = "SOMEONE@EMAIL.COM";  //admin email ID here
 
 @$user_name = $_POST['uname'];
 @$user_id = $_POST['email'];
@@ -39,10 +39,10 @@ if (($user_name||$user_id||$feed_back)==0) {
 
 	$subject_user = "Feedback recieved from the feedback page";
 	$body_user = "Thank you <html><b>$user_name</b></html> for your feedback!";
-	$header_user = "From: rohanmaloor@gmail.com";
+	$header_user = "From: SOMEONE@EMAIL.COM";  //email sent from ID here
 
 	$body_admin = "The feedback from <html><b>$user_name</b></html> is:    $feed_back";
-	$admin_id = "maloorrohhe17ite@student.mes.ac.in";
+	$admin_id = "SOMEONE@EMAIL.COM";  //admin email ID here
 	$subject_admin = "Feedback recieved";
 	$header_admin = "From: $user_id";
 
